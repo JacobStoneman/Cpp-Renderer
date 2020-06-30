@@ -1,0 +1,9 @@
+﻿Main.obj : error LNK2001: unresolved external symbol SDL_GetWindowSurface
+Main.obj : error LNK2001: unresolved external symbol SDL_Init
+Main.obj : error LNK2001: unresolved external symbol SDL_DestroyWindow
+Main.obj : error LNK2001: unresolved external symbol SDL_GetError
+Main.obj : error LNK2001: unresolved external symbol SDL_Quit
+Main.obj : error LNK2001: unresolved external symbol SDL_PollEvent
+Main.obj : error LNK2001: unresolved external symbol SDL_CreateWindow
+Main.obj : error LNK2001: unresolved external symbol SDL_UpdateWindowSurface
+C:\Users\Jacob\Documents\Files\Uni Work\322\322_CourseWork\322Coursework\x64\Release\322Coursework.exe : fatal error LNK1120: 8 unresolved externals

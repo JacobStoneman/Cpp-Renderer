@@ -1,0 +1,25 @@
+﻿  AABox.cpp
+C:\Users\Jacob\Documents\Files\Uni Work\322\322_CourseWork\322Coursework\322Coursework\AABox.cpp(4,157): warning C4804: '<': unsafe use of type 'bool' in operation
+  Light.cpp
+  Main.cpp
+C:\Users\Jacob\Documents\Files\Uni Work\322\322_CourseWork\322Coursework\322Coursework\Main.cpp(20,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Jacob\Documents\Files\Uni Work\322\322_CourseWork\322Coursework\322Coursework\Main.cpp(21,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Jacob\Documents\Files\Uni Work\322\322_CourseWork\322Coursework\322Coursework\Main.cpp(46,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  objloader.cpp
+C:\Users\Jacob\Documents\Files\Uni Work\322\322_CourseWork\322Coursework\322Coursework\objloader.cpp(50,33): warning C4101: 'uvIndex': unreferenced local variable
+  Plane.cpp
+  Shape.cpp
+  Sphere.cpp
+  Triangle.cpp
+  Generating Code...
+Main.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function "bool __cdecl initSDL(struct SDL_Window * &,struct SDL_Surface * &)" (?initSDL@@YA_NAEAPEAUSDL_Window@@AEAPEAUSDL_Surface@@@Z)
+Main.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "bool __cdecl initSDL(struct SDL_Window * &,struct SDL_Surface * &)" (?initSDL@@YA_NAEAPEAUSDL_Window@@AEAPEAUSDL_Surface@@@Z)
+Main.obj : error LNK2019: unresolved external symbol SDL_GetWindowSurface referenced in function "bool __cdecl initSDL(struct SDL_Window * &,struct SDL_Surface * &)" (?initSDL@@YA_NAEAPEAUSDL_Window@@AEAPEAUSDL_Surface@@@Z)
+Main.obj : error LNK2019: unresolved external symbol SDL_UpdateWindowSurface referenced in function "void __cdecl FinalRender(void)" (?FinalRender@@YAXXZ)
+Main.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "void __cdecl closeSDL(struct SDL_Window * &)" (?closeSDL@@YAXAEAPEAUSDL_Window@@@Z)
+Main.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function main
+Main.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "bool __cdecl initSDL(struct SDL_Window * &,struct SDL_Surface * &)" (?initSDL@@YA_NAEAPEAUSDL_Window@@AEAPEAUSDL_Surface@@@Z)
+Main.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "void __cdecl closeSDL(struct SDL_Window * &)" (?closeSDL@@YAXAEAPEAUSDL_Window@@@Z)
+SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Jacob\Documents\Files\Uni Work\322\322_CourseWork\322Coursework\x64\Debug\322Coursework.exe : fatal error LNK1120: 8 unresolved externals
